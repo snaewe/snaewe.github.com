@@ -13,17 +13,28 @@
       .links { text-align: center;
       margin-top: 50px;}
       .links a { color: #449;}
+      .github-badge { width:20%; }
     </style> 
   </head> 
   
   <body> 
+    <div id="github-badge"></div>
+    <script type="text/javascript" charset="utf-8">
+      GITHUB_USERNAME="snaewe";
+      GITHUB_LIST_LENGTH=10;
+      GITHUB_HEAD="div"; // e.g. change to "h2" for wordpress sidebars
+      GITHUB_THEME="white"; 
+      GITHUB_TITLE = "My projects"
+      GITHUB_SHOW_ALL = "Show all"
+    </script>
+    <script
+       src="http://drnicjavascript.rubyforge.org/github_badge/dist/github-badge-launcher.js"
+       type="text/javascript"/>
     
-    <div
-       class="main">Sweeeeeeeeeet.</div> 
+    <div class="main">Sweeeeeeeeeet.</div> 
     
     <div class="links"> 
-      <a
-	 href="http://github.com">Github</a> 
+      <a href="http://github.com">Github</a> 
     </div> 
     
   </body> 
